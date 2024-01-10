@@ -1,0 +1,12 @@
+springdoc:
+  packagesToScan: "api.web.devopsterraform"
+  pathsToMatch: "/api/v1/**"
+  api-docs:
+    path: "/api/v1/api-docs"
+  swagger-ui:
+    path: "/api/v1/swagger-ui.html"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
